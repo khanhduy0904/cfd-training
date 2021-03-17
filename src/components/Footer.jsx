@@ -17,13 +17,13 @@ function Footer(props) {
               <p className="phone">(+84) 98 9596 913</p>
               <div className="social">
                 <a className="fb" href="#">
-                  {/* <img src="img/icon-fb.svg" alt=""> */}
+                  <img src="/img/icon-fb.svg" alt="đa" />
                 </a>
                 <a className="gmail" href="#">
-                  {/* <img src="img/icon-gmail.svg" alt=""> */}
+                  <img src="/img/icon-gmail.svg" alt="sqwe" />
                 </a>
                 <a className="skype" href="#">
-                  {/* <img src="img/icon-skype.svg" alt=""> */}
+                  <img src="img/icon-skype.svg" alt="ádsaasđ" />
                 </a>
               </div>
             </div>
