@@ -8,7 +8,7 @@ function Avatar(props) {
             <div className="top-info">
             <div className="avatar">
               {/* <span class="text">H</span> */}
-              <img src="/img/avatar-lg.png" alt />
+              <img src="/img/avatar-lg.png" alt="ccxcxc" />
               <div className="camera" />
             </div>
             <div className="name">{auth.login.name}</div>

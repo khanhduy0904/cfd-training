@@ -69,7 +69,7 @@ function Home(props) {
           <div className="wrap">
             <h2 className="title">Đăng ký</h2>
             <div className="btn btn-icon rect white btn-google">
-              <img src="img/google.svg" alt />
+              <img src="img/google.svg" alt='ád' />
               Google
             </div>
             <p className="policy">
@@ -77,7 +77,7 @@ function Home(props) {
               <a href="#">Điều khoản bảo mật</a> của CFD
             </p>
             <div className="close">
-              <img src="/img/close-icon.png" alt />
+              <img src="/img/close-icon.png" alt="đasd" />
             </div>
           </div>
         </div>

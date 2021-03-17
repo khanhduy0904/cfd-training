@@ -4,7 +4,7 @@ export default function Teacher({ avatar, name, position, content, website }) {
     return (
         <div className="teacher">
             <div className="avatar">
-                <img src={avatar} alt="" />
+                <img src={avatar} alt="mm" />
             </div>
             <div className="info">
                 <div className="name">{name}</div>

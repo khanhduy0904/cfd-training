@@ -82,7 +82,7 @@ export default function Detail() {
             <div className="container">
               <div className="video">
                 <div className="icon">
-                  <img src="/img/play-icon-white.png" alt="" />
+                  <img src="/img/play-icon-white.png" alt="njn" />
                 </div>{" "}
                 <span>giới thiệu</span>
               </div>
@@ -95,7 +95,7 @@ export default function Detail() {
             <p className="des">{course.long_description}</p>
             <h2 className="title">giới thiệu về khóa học</h2>
             <div className="cover">
-              <img src="/img/course-detail-img.png" alt="" />
+              <img src="/img/course-detail-img.png" alt="njh" />
             </div>
             <h3 className="title">nội dung khóa học</h3>
             {course.content.map((e, i) => (
@@ -164,7 +164,7 @@ export default function Detail() {
 
             <div className="bottom">
               <div className="user">
-                <img src="/img/user-group-icon.png" alt="" /> 12 bạn đã đăng ký
+                <img src="/img/user-group-icon.png" alt="bhbh" /> 12 bạn đã đăng ký
               </div>
               <Link
                 className="btn main btn-register round"
@@ -173,7 +173,7 @@ export default function Detail() {
                 đăng ký
               </Link>
               <div className="btn-share btn overlay round btn-icon">
-                <img src="/img/facebook.svg" alt="" />
+                <img src="/img/facebook.svg" alt="bhbhbh" />
               </div>
             </div>
           </div>

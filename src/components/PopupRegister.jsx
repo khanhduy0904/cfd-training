@@ -108,12 +108,12 @@ function PopupRegister(props, ref) {
                     </div>
                     <div>
                         <div className="btn btn-icon rect white btn-google">
-                            <img src="/img/google.svg" alt />
+                            <img src="/img/google.svg" alt="ád" />
                   Google
                 </div>
                     </div>
                     <div className="close" onClick={context.closePopupRegister}>
-                        <img src="/img/close-icon.png" alt />
+                        <img src="/img/close-icon.png" alt="aaaa" />
                     </div>
                 </div>
                 {/* email form */}

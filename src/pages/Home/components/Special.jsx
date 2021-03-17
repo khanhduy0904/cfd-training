@@ -14,9 +14,9 @@ function Special(props) {
                     className="videodif"
                     data-src="video/CFD-video-intro.mp4"
                   >
-                    <img src="img/img-cfd-dac-biet.jpg" alt />
+                    <img src="img/img-cfd-dac-biet.jpg" alt="fdsf" />
                     <div className="play-btn btn-video-intro">
-                      <img src="img/play-icon.svg" alt />
+                      <img src="img/play-icon.svg" alt="adsad" />
                     </div>
                   </div>
                 </div>

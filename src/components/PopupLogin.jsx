@@ -1,10 +1,9 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
-import swal from 'sweetalert';
+import userApi from "../../src/api/userApi";
 import { Context } from '../App';
 import { useAuth } from '../core/hook/useAuth';
 import useFormValidate from '../core/hook/useFormValidate';
-import userApi from "../../src/api/userApi";
 function PopupLogin(props, ref) {
 
   const styles = {
@@ -74,8 +73,6 @@ function PopupLogin(props, ref) {
         auth.loginAction(res.data);
         context.closePopupLogin();
       }
-
-
     }
   }
 
@@ -108,12 +105,12 @@ function PopupLogin(props, ref) {
           </div>
           <div>
             <div className="btn btn-icon rect white btn-google">
-              <img src="/img/google.svg" alt />
+              <img src="/img/google.svg" alt="ll" />
                   Google
                 </div>
           </div>
           <div className="close" onClick={context.closePopupLogin}>
-            <img src="/img/close-icon.png" alt />
+            <img src="/img/close-icon.png" alt="aw" />
           </div>
         </div>
         {/* email form */}

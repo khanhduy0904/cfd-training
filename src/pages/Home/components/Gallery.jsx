@@ -70,7 +70,7 @@ function Gallery(props) {
           <img data-flickity-lazyload="/img/img_team4.png" alt />
           <img data-flickity-lazyload="/img/img_team3.png" alt /> */}
           <div className="item carousel-cell">
-            <img data-flickity-lazyload="img/img_team4.png" alt />
+            <img data-flickity-lazyload="img/img_team4.png" alt="njj" />
           </div>
         </div>
         <div className="controls">

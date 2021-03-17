@@ -1,24 +1,22 @@
-import logo from "./logo.svg";
+import React, { useRef } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import './App.css';
 import "./assets/css/style.scss";
-import Home from "./pages/Home";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Team from "./pages/CFDTeam";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Profile from "./pages/Profile";
-import Project from "./pages/Project";
-import Detail from "./pages/Detail";
-import Page404 from "./pages/Page404";
-import Register from "./pages/Register";
-import Collab from "./pages/Collab";
-import PopupLogin from "./components/PopupLogin";
-import CoursePage from "./pages/CoursePage";
+import Header from "./components/Header";
 import Loading from "./components/Loading";
-import React, { useRef } from "react";
+import PopupLogin from "./components/PopupLogin";
+import PopupRegister from "./components/PopupRegister";
 import AuthProvider from "./core/hook/useAuth";
 import PrivateRouter from "./core/PrivateRouter";
-import PopupRegister from "./components/PopupRegister";
+import Collab from "./pages/Collab";
+import CoursePage from "./pages/CoursePage";
+import Detail from "./pages/Detail";
+import Home from "./pages/Home";
+import Page404 from "./pages/Page404";
+import Profile from "./pages/Profile";
+import Project from "./pages/Project";
+import Register from "./pages/Register";
 
 export const Context = React.createContext({});
 

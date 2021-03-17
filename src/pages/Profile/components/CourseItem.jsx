@@ -5,7 +5,7 @@ function CourseItem({course, trang_thai}) {
         <>
              <div className="item">
                     <div className="cover">
-                        <img src={course.thumbnail.link} alt />
+                        <img src={course.thumbnail.link} alt="dsadsdw" />
                     </div>
                     <div className="info">
                         <a href="#" className="name">
@@ -14,15 +14,15 @@ function CourseItem({course, trang_thai}) {
                         <div className="date">Khai giảng ngày {course.opening_time}</div>
                         <div className="row">
                             <div className>
-                                <img src="/img/clock.svg" alt className="icon" />
+                                <img src="/img/clock.svg" alt="qưeqew" className="icon" />
                           54 giờ
                         </div>
                             <div className>
-                                <img src="/img/play.svg" alt className="icon" />
+                                <img src="/img/play.svg" alt="dsadsd" className="icon" />
                                 {course.count_video} video
                         </div>
                             <div className>
-                                <img src="/img/user.svg" alt className="icon" />
+                                <img src="/img/user.svg" alt="dsadadsdsds" className="icon" />
                           20 học viên
                         </div>
                         </div>

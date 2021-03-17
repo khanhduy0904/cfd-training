@@ -14,7 +14,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (1).jpg" alt="" />
+                                    <img src="/img/project/project (1).jpg" alt="gfdfgfdgfdg" />
                                 </div>
                                 <div className="info">
                                     <div className="name">furnitown</div>
@@ -25,7 +25,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (2).jpg" alt="" />
+                                    <img src="/img/project/project (2).jpg" alt="ádadsd" />
                                 </div>
                                 <div className="info">
                                     <div className="name">kymco</div>
@@ -36,7 +36,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (3).jpg" alt="" />
+                                    <img src="/img/project/project (3).jpg" alt="sdsdsds" />
                                 </div>
                                 <div className="info">
                                     <div className="name">gboxmb</div>
@@ -47,7 +47,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (4).jpg" alt="" />
+                                    <img src="/img/project/project (4).jpg" alt="sdsdss" />
                                 </div>
                                 <div className="info">
                                     <div className="name">wooder</div>
@@ -58,7 +58,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (5).jpg" alt="" />
+                                    <img src="/img/project/project (5).jpg" alt="ddddd" />
                                 </div>
                                 <div className="info">
                                     <div className="name">gboxmb</div>
@@ -69,7 +69,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (6).jpg" alt="" />
+                                    <img src="/img/project/project (6).jpg" alt="weqwewqe" />
                                 </div>
                                 <div className="info">
                                     <div className="name">wooder</div>
@@ -80,7 +80,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (1).png" alt="" />
+                                    <img src="/img/project/project (1).png" alt="vvvvv" />
                                 </div>
                                 <div className="info">
                                     <div className="name">gboxmb</div>
@@ -91,7 +91,7 @@ export default function Project() {
                         <a href="#" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
-                                    <img src="/img/project/project (2).png" alt="" />
+                                    <img src="/img/project/project (2).png" alt="bbbbb" />
                                 </div>
                                 <div className="info">
                                     <div className="name">wooder</div>

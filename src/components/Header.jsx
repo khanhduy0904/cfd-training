@@ -68,7 +68,7 @@ function Header(props) {
                         <span className="text">menu</span>
                     </div>
                     <Link to="/" className="logo" onClick={delayLink}>
-                        <img src="/img/logo.svg" alt />
+                        <img src="/img/logo.svg" alt="aa" />
                         <h1>CFD</h1>
                     </Link>
                     <div className="right">
@@ -77,7 +77,7 @@ function Header(props) {
                                 <a href="#" className="info">
                                     <div className="name">{auth.login.name}</div>
                                     <div className="avatar">
-                                        <img src="/img/avt.png" alt />
+                                        <img src="/img/avt.png" alt="dsad" />
                                     </div>
                                 </a>
                             </div>

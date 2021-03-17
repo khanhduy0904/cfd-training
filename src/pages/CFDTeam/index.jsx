@@ -17,7 +17,7 @@ function Team(props) {
               <div className="item col-md-6 col-sm-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="ccc" />
                   </div>
                   <div className="info">
                     <div className="name">trần nghĩa</div>
@@ -30,7 +30,7 @@ function Team(props) {
               <div className="item col-md-6 col-sm-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="aasx" />
                   </div>
                   <div className="info">
                     <div className="name">đặng thuyền vương</div>
@@ -43,7 +43,7 @@ function Team(props) {
               <div className="item col-md-6 col-sm-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="ádsdas" />
                   </div>
                   <div className="info">
                     <div className="name">đặng thuyền quân</div>
@@ -54,7 +54,7 @@ function Team(props) {
               <div className="item col-md-6 col-sm-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="ádasd" />
                   </div>
                   <div className="info">
                     <div className="name">nguyễn đức huy</div>
@@ -68,7 +68,7 @@ function Team(props) {
                 <div className="wrap">
                   <div className="cover">
                     <span className="text">H</span>
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="đasad" />
                   </div>
                   <div className="info">
                     <div className="name">Diệp anh thy</div>
@@ -79,7 +79,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="đasadd" />
                   </div>
                   <div className="info">
                     <div className="name">huỳnh tiến tài</div>
@@ -90,7 +90,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="aaasdsds" />
                   </div>
                   <div className="info">
                     <div className="name">Ngô thành long</div>
@@ -101,7 +101,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="dsdasdsd" />
                   </div>
                   <div className="info">
                     <div className="name">trần anh tuấn</div>
@@ -112,7 +112,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="occo" />
                   </div>
                   <div className="info">
                     <div className="name">ngô thành long</div>
@@ -123,7 +123,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="oicic" />
                   </div>
                   <div className="info">
                     <div className="name">nguyễn thành tùng</div>
@@ -134,7 +134,7 @@ function Team(props) {
               <div className="item col-md-3 col-sm-4 col-xs-6">
                 <div className="wrap">
                   <div className="cover">
-                    <img src="/img/thumb-member.jpg" alt />
+                    <img src="/img/thumb-member.jpg" alt="đjdjd" />
                   </div>
                   <div className="info">
                     <div className="name">phạm thành trung</div>
