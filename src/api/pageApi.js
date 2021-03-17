@@ -1,6 +1,6 @@
 import { domain } from "../core/apiDomain";
 
-export default {
+const pageApi = {
     home: () => {
 
     },
@@ -32,3 +32,5 @@ export default {
         }).then(res => res.json())
     }
 }
+
+export default pageApi;

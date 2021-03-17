@@ -1,6 +1,7 @@
 import { domain } from "../core/apiDomain"
 
-export default {
+
+const userApi =  {
     login: (formData) => {
 
         return fetch(`${domain}/elearning/v4/login`,{
@@ -54,3 +55,5 @@ export default {
         }).then(res => res.json())
     }
 }
+
+export default userApi;
