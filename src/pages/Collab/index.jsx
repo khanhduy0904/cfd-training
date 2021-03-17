@@ -92,7 +92,7 @@ function Collab(props) {
               <p>
                 Nội dung<span>*</span>
               </p>
-              <textarea name id cols={30} rows={10} defaultValue={""} name="content" value={form.content}/>
+              <textarea  cols={30} rows={10} defaultValue="" name="content" value={form.content}/>
             </label>
             <div className="btn main rect" onClick={handleSubmit}>đăng ký</div>
           </div>

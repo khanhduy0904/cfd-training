@@ -55,7 +55,7 @@ function Gallery(props) {
         <div className="list">
           {props.list.map((item,index) => {
             return (
-              <img data-flickity-lazyload={item} key={index} alt />
+              <img data-flickity-lazyload={item} key={index} alt="ssdsdsdsdasd" />
             )
           })}
           {/* <img data-flickity-lazyload="/img/img_team1.png" alt />

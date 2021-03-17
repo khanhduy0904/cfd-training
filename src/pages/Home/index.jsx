@@ -74,7 +74,7 @@ function Home(props) {
             </div>
             <p className="policy">
               Bằng việc đăng kí, bạn đã đồng ý{" "}
-              <a href="#">Điều khoản bảo mật</a> của CFD
+              <a href="#ghh">Điều khoản bảo mật</a> của CFD
             </p>
             <div className="close">
               <img src="/img/close-icon.png" alt="đasd" />

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import LoadingApi from '../../../components/LoadingApi';
-import { useAuth } from '../../../core/hook/useAuth';
+
 import CourseItem from './CourseItem';
 import userApi from "../../../api/userApi";
 function Course(props) {
-    let auth = useAuth();
+    // let auth = useAuth();
     let [course, setCourse] = useState();
     useEffect(async () => {
         // fetch("https://cfd-reactjs.herokuapp.com/elearning/v4/profile/course", {

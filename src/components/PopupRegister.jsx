@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
 import swal from 'sweetalert';
 import { Context } from '../App';
-import { useAuth } from '../core/hook/useAuth';
 import useFormValidate from '../core/hook/useFormValidate';
 function PopupRegister(props, ref) {
 
@@ -48,7 +47,7 @@ function PopupRegister(props, ref) {
     })
 
     let context = useContext(Context);
-    let auth = useAuth();
+    // let auth = useAuth();
     function btnClick(e) {
         e.preventDefault();
 

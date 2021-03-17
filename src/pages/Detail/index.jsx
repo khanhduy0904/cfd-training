@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import pageApi from "../../api/pageApi";
 import courseApi from "../../api/courseApi";
-import { Redirect, useRouteMatch, Link } from "react-router-dom";
+import { useRouteMatch, Link } from "react-router-dom";
 import LoadingApi from "../../components/LoadingApi";
 import Teacher from "./components/Teacher";
 import Course from "../../components/Course";

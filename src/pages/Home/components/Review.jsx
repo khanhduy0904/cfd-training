@@ -84,7 +84,7 @@ function Review({ list }) {
                         <p>Thành viên CFD1</p>
                       </div>
                       <div className="quotes">
-                        <img src="img/quotes.svg" alt />
+                        <img src="img/quotes.svg" alt="dsdsdsds" />
                       </div>
                     </div>
                     <div className="content">
@@ -92,7 +92,7 @@ function Review({ list }) {
                     </div>
                     <div className="bottom">
                       <a href={item.fb} target="_blank">
-                        <img src="img/facebook.svg" alt />
+                        <img src="img/facebook.svg" alt="pcdcdcd" />
                       </a>
                       <span>{item.date}</span>
                     </div>
@@ -111,7 +111,7 @@ function Review({ list }) {
                             media="(max-width: 767px)"
                             srcSet="img/Intersect.png"
                           />
-                          <img data-flickity-lazyload={item.cover} alt />
+                          <img data-flickity-lazyload={item.cover} alt="pasadrer" />
                         </picture>
                       </div>
                       <div className="ct_m">
@@ -121,7 +121,7 @@ function Review({ list }) {
                             <p>Thành viên CFD1</p>
                           </div>
                           <div className="quotes">
-                            <img src="img/quotes.svg" alt />
+                            <img src="img/quotes.svg" alt="cooocc" />
                           </div>
                         </div>
                         <div className="content">
@@ -131,7 +131,7 @@ function Review({ list }) {
                            </div>
                         <div className="bottom">
                           <a href="#" target="_blank">
-                            <img src="img/facebook.svg" alt />
+                            <img src="img/facebook.svg" alt="dodo" />
                           </a>
                           <span>09/10/2020</span>
                         </div>
