@@ -110,8 +110,8 @@ function Header(props) {
                         {
                             !auth.login ? (
                                 <>
-                                   <a href="javascript:void(0)" onClick={context.openPopupLogin}>Đăng nhập</a>
-                                    <a href="javascript:void(0)"onClick={context.openPopupRegister}>Đăng ký</a>
+                                   <span  style={{cursor: "pointer", marginRight: 20, padding: 10}} onClick={context.openPopupLogin}>Đăng nhập</span>
+                                    <span style={{cursor: "pointer", padding: 10}} onClick={context.openPopupRegister}>Đăng ký</span>
                                 </>
                             ) : ""
                         }
