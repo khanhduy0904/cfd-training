@@ -95,9 +95,9 @@ function PopupLogin(props, ref) {
               </div>
               <p>Nhớ mật khẩu</p>
             </label>
-            <a href="javascript:void(0)" className="forget" onClick={context.openPopupRegister}>
+            <span style={{cursor: "pointer"}} className="forget" onClick={context.openPopupRegister}>
               Đăng kí
-              </a>
+              </span>
           </div>
           <div className="btn rect main btn-login" onClick={btnClick} >đăng nhập</div>
           <div className="text-register" style={{}}>

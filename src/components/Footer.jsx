@@ -16,13 +16,13 @@ function Footer(props) {
                 </p>
               <p className="phone">(+84) 98 9596 913</p>
               <div className="social">
-                <a className="fb" href="#">
+                <a className="fb" href="#z">
                   <img src="/img/icon-fb.svg" alt="đa" />
                 </a>
-                <a className="gmail" href="#">
+                <a className="gmail" href="#x">
                   <img src="/img/icon-gmail.svg" alt="sqwe" />
                 </a>
-                <a className="skype" href="#">
+                <a className="skype" href="#c">
                   <img src="img/icon-skype.svg" alt="ádsaasđ" />
                 </a>
               </div>
@@ -31,22 +31,22 @@ function Footer(props) {
               <nav>
                 <ul>
                   <li>
-                    <a href="#">Trang chủ</a>
+                    <a href="#a">Trang chủ</a>
                   </li>
                   <li>
-                    <a href="#">Khóa học</a>
+                    <a href="#b">Khóa học</a>
                   </li>
                   <li>
-                    <a href="#">Thanh toán</a>
+                    <a href="#c">Thanh toán</a>
                   </li>
                   <li>
-                    <a href="#">Điều khoản</a>
+                    <a href="#d">Điều khoản</a>
                   </li>
                 </ul>
               </nav>
             </div>
           </div>
-          <a href="#" className="back-to-top">
+          <a href="#v" className="back-to-top">
             <div className="line" />
               CUỘN LÊN
             </a>

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { Context } from '../App';
 import { useAuth } from '../core/hook/useAuth';
@@ -74,7 +74,7 @@ function Header(props) {
                     <div className="right">
                         {auth.login ? <div className="have-login">
                             <div className="account">
-                                <a href="#" className="info">
+                                <a href="#sdsd" className="info">
                                     <div className="name">{auth.login.name}</div>
                                     <div className="avatar">
                                         <img src="/img/avt.png" alt="dsad" />
@@ -86,11 +86,14 @@ function Header(props) {
                             <div className="sub">
                                 <Link to="/thong-tin-ca-nhan/khoa-hoc" onClick={delayLink}>Khóa học của tôi</Link>
                                 <Link to="/thong-tin-ca-nhan" onClick={delayLink}>Thông tin tài khoản</Link>
-                                <a href="javascript:void(0)" onClick={auth.logout}>Đăng xuất</a>
+                                {/* <a href="javascript:void(0)" onClick={auth.logout}>Đăng xuất</a> */}
+                                <div style={{textAlign: "right",borderBottom: "1px solid #e7e7e7",padding: "20px", cursor: "pointer"}} onClick={auth.logout}>
+                                    <span>Đăng xuất</span>    
+                                </div> 
                             </div>
                         </div> : <div className="not-login bg-none">
-                                <a href="javascript:void(0)" className="btn-register" onClick={context.openPopupLogin}>Đăng nhập</a>
-                                <a href="javascript:void(0)" className="btn main btn-open-login" onClick={context.openPopupRegister}>Đăng ký</a>
+                                <span style={{cursor: "pointer"}} className="btn-register" onClick={context.openPopupLogin}>Đăng nhập</span>
+                                <span style={{cursor: "pointer"}} className="btn main btn-open-login" onClick={context.openPopupRegister}>Đăng ký</span>
                             </div>
                         }
 

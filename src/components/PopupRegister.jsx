@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
 import swal from 'sweetalert';
 import { Context } from '../App';
@@ -98,9 +98,9 @@ function PopupRegister(props, ref) {
                             </div>
                             <p>Nhớ mật khẩu</p>
                         </label>
-                        <a href="javascript:void(0)" className="forget" onClick={context.openPopupLogin}>
+                        <span style={{cursor: "pointer"}} className="forget" onClick={context.openPopupLogin}>
                             Đăng nhập
-                        </a>
+                        </span>
                     </div>
                     <div className="btn rect main btn-login" onClick={btnClick} >đăng kí</div>
                     <div className="text-register" style={{}}>
