@@ -6,16 +6,22 @@ import Review from "./components/Review";
 import Special from "./components/Special";
 import Form from "./components/Form";
 import LoadingApi from "../../components/LoadingApi";
+import pageApi from "../../api/pageApi";
 function Home(props) {
 
   let [state, setState] = useState();
   useEffect(() => {
-    fetch("http://cfd-reactjs.herokuapp.com/elearning/v4/home")
-    .then(res => res.json())
-      .then(res => {
-        console.log(res);
-        setState(res);
-      })
+    async function fetchApi(){
+      let res = await pageApi.home();
+      setState(res);
+    }
+    fetchApi();
+    // fetch("http://cfd-reactjs.herokuapp.com/elearning/v4/home")
+    // .then(res => res.json())
+    //   .then(res => {
+    //     console.log(res);
+    //     setState(res);
+    //   })
   }, [])
   if(!state){
     return (

@@ -2,7 +2,7 @@ import { domain } from "../core/apiDomain";
 
 const pageApi = {
     home: () => {
-
+        return fetch(`${domain}/elearning/v4/home`).then(res => res.json())
     },
     coursePage: () => {
         return fetch(`${domain}/elearning/v4/courses`).then(res => res.json())
