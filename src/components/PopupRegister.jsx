@@ -53,7 +53,7 @@ function PopupRegister(props, ref) {
 
         let error = submit();
         if (Object.keys(error).length === 0) {
-            fetch("http://cfd-reactjs.herokuapp.com/elearning/v4/register", {
+            fetch("https://cfd-reactjs.herokuapp.com/elearning/v4/register", {
                   //http://localhost:8888/elearning/v4/regiser
                 // http://cfd-reactjs.herokuapp.com/elearning/v4/register
                 method: "POST",
