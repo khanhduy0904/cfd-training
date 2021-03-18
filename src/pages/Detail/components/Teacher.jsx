@@ -11,7 +11,7 @@ export default function Teacher({ avatar, name, position, content, website }) {
                 <div className="title">{position}</div>
                 <p className="intro">{content}</p>
                 {
-                    website && <p><strong>Website:</strong> <a href={website} target="_blank">{website}</a></p>
+                    website && <p><strong>Website:</strong> <a href={website} target="_blank" rel="noreferrer">{website}</a></p>
                 }
 
             </div>

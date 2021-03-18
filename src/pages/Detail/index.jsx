@@ -12,16 +12,21 @@ export default function Detail() {
   let routerMath = useRouteMatch();
   let [state, setState] = useState();
 
-  useEffect(async () => {
+  useEffect( () => {
     // let course = await pageApi.course_detail(routerMath.params.slug)
-    let [course, courseRedlated] = await Promise.all([
-      pageApi.courseDetail(routerMath.params.slug),
-      courseApi.related(routerMath.params.slug),
-    ]);
-    if (course.data) {
-      console.log(course.data);
-      setState({ course: course.data, courseRelated: courseRedlated.data });
+
+    async function fetchApi() {
+      let [course, courseRedlated] = await Promise.all([
+        pageApi.courseDetail(routerMath.params.slug),
+        courseApi.related(routerMath.params.slug),
+      ]);
+      if (course.data) {
+        console.log(course.data);
+        setState({ course: course.data, courseRelated: courseRedlated.data });
+      }
     }
+    fetchApi();
+ 
 
     function courseDetailAccordion() {
       $(".accordion .accordion__title").on("click", function (e) {
@@ -46,11 +51,8 @@ export default function Detail() {
     }
 
     courseDetailAccordion();
-  }, [routerMath.params.slug]);
+  }, [routerMath.params.slug,$]);
 
-  // function registerCLick() {
-
-  // }
 
   if (!state) return <LoadingApi />;
 

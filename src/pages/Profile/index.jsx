@@ -7,11 +7,11 @@ import Project from "./components/Project";
 import CoursePayment from "./components/CoursePayment";
 import Coin from "./components/Coin";
 import { Redirect, Route, Switch, useRouteMatch } from "react-router-dom";
-import { useAuth } from "../../core/hook/useAuth";
+// import { useAuth } from "../../core/hook/useAuth";
 function Profile(props) {
   let login = true;
 
-  let auth = useAuth();
+  // let auth = useAuth();
   const match = useRouteMatch();
 
   if (!login) return <Redirect to="/" />

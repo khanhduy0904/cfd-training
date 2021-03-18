@@ -91,7 +91,7 @@ function Review({ list }) {
                       {item.content}
                     </div>
                     <div className="bottom">
-                      <a href={item.fb} target="_blank">
+                      <a href={item.fb} target="_blank" rel="noreferrer">
                         <img src="img/facebook.svg" alt="pcdcdcd" />
                       </a>
                       <span>{item.date}</span>
@@ -130,7 +130,7 @@ function Review({ list }) {
                           mentor.
                            </div>
                         <div className="bottom">
-                          <a href="#" target="_blank">
+                          <a href="#gfggf" target="_blank">
                             <img src="img/facebook.svg" alt="dodo" />
                           </a>
                           <span>09/10/2020</span>

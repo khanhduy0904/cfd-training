@@ -1,6 +1,6 @@
 import { CircularProgress } from '@material-ui/core';
 import React, { useEffect, useState } from 'react'
-import Footer from '../../components/Footer'
+
 import Header from '../../components/Header'
 import useFormValidate from '../../core/hook/useFormValidate';
 import pageApi from "../../api/pageApi";
@@ -56,15 +56,19 @@ export default function Register() {
 
     let routerMath = useRouteMatch();
 
-    useEffect(async () => {
-        let course = await pageApi.courseDetail(routerMath.params.slug);
-        if (course.data) {
-            console.log(course.data);
-            setCourse(course.data);
-        } else {
-            setCourse("not found");
-        }
-    }, [])
+    useEffect(() => {
+        async function fetchApi(){
+            let course = await pageApi.courseDetail(routerMath.params.slug);
+            if (course.data) {
+                console.log(course.data);
+                setCourse(course.data);
+            } else {
+                setCourse("not found");
+            }
+        };
+        fetchApi();
+      
+    }, [routerMath.params.slug])
 
 
 
@@ -232,8 +236,8 @@ export default function Register() {
                                             <div className="select">
                                                 <div className="head">Chuyển khoản</div>
                                                 <div className="sub">
-                                                    <a href="#">Chuyển khoản</a>
-                                                    <a href="#">Thanh toán tiền mặt</a>
+                                                    <a href="#hghghg">Chuyển khoản</a>
+                                                    <a href="#hyhyhyhhy">Thanh toán tiền mặt</a>
                                                 </div>
                                             </div>
                                         </label>

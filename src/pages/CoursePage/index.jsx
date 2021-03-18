@@ -6,10 +6,16 @@ import LoadingApi from '../../components/LoadingApi';
 function CoursePage(props) {
 
     let [state, setState] = useState();
-    useEffect(async () => {
-        let res = await pageApi.coursePage();
-        console.log(res);
-        setState(res);
+    useEffect(() => {
+        async function fetchData(){
+            let res = await pageApi.coursePage();
+            console.log(res);
+            setState(res);
+        }
+        // let res = await pageApi.coursePage();
+        // console.log(res);
+        // setState(res);
+        fetchData();
     }, []);
     
     if (!state) return <LoadingApi />

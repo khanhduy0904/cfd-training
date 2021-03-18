@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import useFormValidate from "../../core/hook/useFormValidate";
 import pageApi from "../../api/pageApi";
 import swal from "sweetalert";

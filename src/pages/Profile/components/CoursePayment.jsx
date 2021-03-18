@@ -5,10 +5,14 @@ function CoursePayment(props) {
 
     const [payment, setPayment] = useState();
     console.log(payment);
-    useEffect( async () => {
-      let res = await userApi.payment();
+    useEffect(() => {
+      async function fetchApi(){
+        let res = await userApi.payment();
       // console.log(res.data);
-      setPayment(res.data);
+        setPayment(res.data);
+      }
+      fetchApi();
+      
     },[])
 
     return (

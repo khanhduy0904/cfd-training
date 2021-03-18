@@ -57,9 +57,9 @@ function Coin(props) {
                 <i>*Bạn có thể đổi COIN 1 lần</i>
               </small>
             </div>
-            <a href="javascript:void(0)" className="btn main">
+            <span  className="btn main">
               Đổi COIN
-                      </a>
+            </span>
           </div>
         </div>
         <div className="coinhistory">

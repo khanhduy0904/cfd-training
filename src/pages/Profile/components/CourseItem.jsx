@@ -8,7 +8,7 @@ function CourseItem({course, trang_thai}) {
                         <img src={course.thumbnail.link} alt="dsadsdw" />
                     </div>
                     <div className="info">
-                        <a href="#" className="name">
+                        <a href="#fffrt" className="name">
                         {course.title}
                       </a>
                         <div className="date">Khai giảng ngày {course.opening_time}</div>

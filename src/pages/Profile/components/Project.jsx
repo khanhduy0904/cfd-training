@@ -7,11 +7,11 @@ function Project(props) {
         <div className="row">
           <div className="col-md-6 course">
             <div className="wrap">
-              <a href="#" className="cover">
+              <a href="#adss" className="cover">
                 <img src="/img/img8.png" alt="đasdasd" />
               </a>
               <div className="info">
-                <a href="#" className="name">
+                <a href="#frfrffr" className="name">
                   Furnitown
                 </a>
                 <p className="des">
@@ -31,11 +31,11 @@ function Project(props) {
           </div>
           <div className="col-md-6 course">
             <div className="wrap">
-              <a href="#" className="cover">
+              <a href="#fffffr" className="cover">
                 <img src="/img/img8.png" alt="clclc" />
               </a>
               <div className="info">
-                <a href="#" className="name">
+                <a href="#ytytyt" className="name">
                   GboxMB
                 </a>
                 <p className="des">

@@ -11,7 +11,7 @@ export default function PrivateRouter(props) {
         if (!auth.login) {
             popupContext.openPopupLogin();
         }
-    },[auth.login]);
+    },[auth.login,popupContext]);
 
 
     // {...props} lấy tất cả các props mà privateRouter chứa

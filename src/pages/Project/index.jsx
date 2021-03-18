@@ -9,9 +9,9 @@ export default function Project() {
                     <p className="top-des">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. aliquam tincidunt elementum sem non
                         luctus
-            </p>
+                    </p>
                     <div className="list row">
-                        <a href="#" className="item col-md-6">
+                        <a href="#nhnhn" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (1).jpg" alt="gfdfgfdgfdg" />
@@ -22,7 +22,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#vfvf" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (2).jpg" alt="ádadsd" />
@@ -33,7 +33,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#rrreree" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (3).jpg" alt="sdsdsds" />
@@ -44,7 +44,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#cccx" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (4).jpg" alt="sdsdss" />
@@ -55,7 +55,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#vg" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (5).jpg" alt="ddddd" />
@@ -66,7 +66,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#gygy" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (6).jpg" alt="weqwewqe" />
@@ -77,7 +77,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#uiuiuiu" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (1).png" alt="vvvvv" />
@@ -88,7 +88,7 @@ export default function Project() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="item col-md-6">
+                        <a href="#asder" className="item col-md-6">
                             <div className="wrap">
                                 <div className="cover">
                                     <img src="/img/project/project (2).png" alt="bbbbb" />
@@ -103,7 +103,7 @@ export default function Project() {
                     <div className="bottom">
                         <div className="btn overlay round btn-more">
                             tải thêm
-              </div>
+                        </div>
                     </div>
                 </div>
             </section>

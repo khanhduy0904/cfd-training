@@ -4,9 +4,9 @@ import userApi from '../../../api/userApi';
 import { useAuth } from '../../../core/hook/useAuth';
 import useFormValidate from '../../../core/hook/useFormValidate';
 
-const styleInput = {
-    color: "red"
-}
+// const styleInput = {
+//     color: "red"
+// }
 
 function Info(props) {
 

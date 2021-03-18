@@ -6,7 +6,7 @@ import userApi from "../../../api/userApi";
 function Course(props) {
     // let auth = useAuth();
     let [course, setCourse] = useState();
-    useEffect(async () => {
+    useEffect(() => {
         // fetch("https://cfd-reactjs.herokuapp.com/elearning/v4/profile/course", {
         //     method: "POST",
         //     headers: {
@@ -18,9 +18,13 @@ function Course(props) {
         //         setCourse(res.data)
         //         console.log(res.data);
         //     })
-        let res = await userApi.course();
-        console.log(res.data);
-        setCourse(res.data);
+        async function fetchApi(){
+            let res = await userApi.course();
+            console.log(res.data);
+            setCourse(res.data);
+        }
+        fetchApi();
+        
     }, [])
     if (!course) return <LoadingApi />
     return (
